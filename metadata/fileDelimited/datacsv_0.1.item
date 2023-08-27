@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_01FOAC-uEe6wEfQD4ZEmjg" name="datacsv" id="_004ZsC-uEe6wEfQD4ZEmjg" dataPackage="_01KGgC-uEe6wEfQD4ZEmjg" Server="Localhost 127.0.0.1" FilePath="C:/Users/akila/Internship/archive/database.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_01KGgC-uEe6wEfQD4ZEmjg" name="default" dataManager="_01FOAC-uEe6wEfQD4ZEmjg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_01KGgS-uEe6wEfQD4ZEmjg" id="_ieYOYC-sEe6wEfQD4ZEmjg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_01KGgi-uEe6wEfQD4ZEmjg" label="Report_Number" length="8" talendType="id_Integer" key="true" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_01KGgy-uEe6wEfQD4ZEmjg" label="Supplemental_Number" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_01KGhC-uEe6wEfQD4ZEmjg" label="Accident_Year" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_01KGhS-uEe6wEfQD4ZEmjg" label="Accident_Date_Time" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_01KGhi-uEe6wEfQD4ZEmjg" label="Operator_ID" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_01KGhy-uEe6wEfQD4ZEmjg" label="Operator_Name" length="42" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_01KGiC-uEe6wEfQD4ZEmjg" label="Pipeline_Facility_Name" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_01KGiS-uEe6wEfQD4ZEmjg" label="Pipeline_Location" length="39" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_01KGii-uEe6wEfQD4ZEmjg" label="Pipeline_Type" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_01KGiy-uEe6wEfQD4ZEmjg" label="Liquid_Type" length="43" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_01KGjC-uEe6wEfQD4ZEmjg" label="Liquid_Subtype" length="43" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_01KGjS-uEe6wEfQD4ZEmjg" label="Liquid_Name" length="56" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_01KGji-uEe6wEfQD4ZEmjg" label="Accident_City" length="56" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_01KGjy-uEe6wEfQD4ZEmjg" label="Accident_County" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_01KGkC-uEe6wEfQD4ZEmjg" label="Accident_State" length="16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_01KGkS-uEe6wEfQD4ZEmjg" label="Accident_Latitude" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_01KGki-uEe6wEfQD4ZEmjg" label="Accident_Longitude" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_01KGky-uEe6wEfQD4ZEmjg" label="Cause_Category" length="27" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_01KGlC-uEe6wEfQD4ZEmjg" label="Cause_Subcategory" length="33" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_01KGlS-uEe6wEfQD4ZEmjg" label="Unintentional_Release__Barrels" length="37" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_01KGli-uEe6wEfQD4ZEmjg" label="Intentional_Release__Barrels" length="37" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_01KGly-uEe6wEfQD4ZEmjg" label="Liquid_Recovery__Barrels" length="30" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_01KGmC-uEe6wEfQD4ZEmjg" label="Net_Loss__Barrels" length="37" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_01KGmS-uEe6wEfQD4ZEmjg" label="Liquid_Ignition" length="31" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_01KGmi-uEe6wEfQD4ZEmjg" label="Liquid_Explosion" length="37" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_01KGmy-uEe6wEfQD4ZEmjg" label="Pipeline_Shutdown" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_01KGnC-uEe6wEfQD4ZEmjg" label="Shutdown_Date_Time" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_01KGnS-uEe6wEfQD4ZEmjg" label="Restart_Date_Time" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_01KGni-uEe6wEfQD4ZEmjg" label="Public_Evacuations" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_01KGny-uEe6wEfQD4ZEmjg" label="Operator_Employee_Injuries" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_01KGoC-uEe6wEfQD4ZEmjg" label="Operator_Contractor_Injuries" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_01KGoS-uEe6wEfQD4ZEmjg" label="Emergency_Responder_Injuries" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_01KGoi-uEe6wEfQD4ZEmjg" label="Other_Injuries" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_01KGoy-uEe6wEfQD4ZEmjg" label="Public_Injuries" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_01KGpC-uEe6wEfQD4ZEmjg" label="All_Injuries" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_01KGpS-uEe6wEfQD4ZEmjg" label="Operator_Employee_Fatalities" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_01KGpi-uEe6wEfQD4ZEmjg" label="Operator_Contractor_Fatalities" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_01KGpy-uEe6wEfQD4ZEmjg" label="Emergency_Responder_Fatalities" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_01KGqC-uEe6wEfQD4ZEmjg" label="Other_Fatalities" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_01KGqS-uEe6wEfQD4ZEmjg" label="Public_Fatalities" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_01KGqi-uEe6wEfQD4ZEmjg" label="All_Fatalities" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_01KGqy-uEe6wEfQD4ZEmjg" label="Property_Damage_Costs" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_01KGrC-uEe6wEfQD4ZEmjg" label="Lost_Commodity_Costs" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_01KGrS-uEe6wEfQD4ZEmjg" label="Public_Private_Property_Damage_Costs" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_01KGri-uEe6wEfQD4ZEmjg" label="Emergency_Response_Costs" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_01KGry-uEe6wEfQD4ZEmjg" label="Environmental_Remediation_Costs" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_01KGsC-uEe6wEfQD4ZEmjg" label="Other_Costs" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_01KGsS-uEe6wEfQD4ZEmjg" label="All_Costs" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_01KGsi-uEe6wEfQD4ZEmjg" label="Column48" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_01KGsy-uEe6wEfQD4ZEmjg" label="Column49" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_01KtkC-uEe6wEfQD4ZEmjg" label="Column50" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_01KtkS-uEe6wEfQD4ZEmjg" label="Column51" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_01Ktki-uEe6wEfQD4ZEmjg" label="Column52" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_01Ktky-uEe6wEfQD4ZEmjg" label="Column53" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
